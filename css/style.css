@@ -1,0 +1,356 @@
+/* [1] Global */
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: #FEFCFB;
+}
+
+li{
+    display:inline;
+}
+
+body{
+    background-color:#ccc;
+    color:#FEFCFB;
+    font-family: Montserrat, Helvetica, san-serif;
+}
+
+.container{
+    width:85%;
+    margin:auto;
+    overflow:hidden;
+}
+
+.text-highlight{
+    color:#1282A2;
+    font-weight: bold;
+}
+
+.text-highlight-2{
+    color:#FEFCFB;
+    font-weight: bold;
+}
+
+/* Colors 
+    --color-main:#0A1128;
+    --color-secondary:#001F54;
+    --color-third:#034078;
+    --color-fourth:#1282A2;
+    --color-fifth:#FEFCFB;
+} */
+
+/* [2] Navigation Bar */
+
+#navigation{
+    background: linear-gradient(90deg, rgba(10,17,40, 0.8), rgba(0,31,84, 0.3));
+    padding:20px 0px 20px 0px;
+    width:100%;
+    position:fixed;
+}
+
+#heading{
+    font-size:45px;
+    float:left;
+}
+
+#navbar{
+    float:right;
+    margin-top:18px;
+    font-size:24px;
+}
+
+.nav-link{
+    padding:0 0px 0 20px;
+}
+
+/* [3] Welcome */
+#welcome-section{
+    background: url('/img/welcome.jpg') no-repeat;
+    background-color:#0A1128;
+    background-blend-mode: screen;
+    text-align: center;
+    min-height: 100vh;
+    background-position: center;
+    width:100%;
+    background-size: cover;
+}
+
+#welcome-title{
+    margin-top:350px;
+    font-size: 92px;
+}
+
+#welcome-description{
+    font-size:32px;
+    padding:50px;
+}
+
+/* [4] Breaker */
+.breaker{
+    background-color:#0A1128;
+    color:#fff;
+    width:100%;
+    padding:20px 0px 20px 0px;
+    border-bottom:2px solid #001F54
+}
+
+.breaker-text{
+    display:flex;
+    justify-content: center;
+}
+
+.breaker-heading{
+    font-size:40px;
+    color:#1282A2;
+    text-shadow: 1px 1px 10px #000;
+}
+
+/* [5] Projects */
+#projects{
+    background-color:#0f0f0f;
+}
+
+.projects-container{
+    display:flex;
+    margin:50px 0px;
+}
+
+.project-tile{
+    background: url('/img/project.jpg') no-repeat;
+    background-color: #0A1128;
+    background-blend-mode:overlay;
+    background-size: cover;
+    background-position: center;
+    margin:20px;
+    padding: 200px 0px;
+    border-radius: 35px;
+}
+
+.project-text{
+    text-align: center;
+}
+
+.project-hr{
+    width:45%;
+    margin:auto;
+}
+
+.project-heading{
+    font-size:42px;
+}
+
+.project-details{
+    font-size:20px;
+    padding-top:15px;
+    margin:auto;
+    width:90%;
+}
+
+.project-code{
+    display:flex;
+    justify-content: center;
+}
+
+.view-code{
+    margin-top:30px;
+    background: #606c88; /* Old browsers */
+    background: -moz-linear-gradient(top,  #606c88 0%, #3f4c6b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #606c88 0%,#3f4c6b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #606c88 0%,#3f4c6b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
+    padding:10px;
+    border-radius: 10px;
+}
+
+.code{
+    font-size:20px;
+}
+
+/* About */
+#about{
+    background-color: #0f0f0f;
+}
+
+.about-container{
+    margin:200px;
+}
+
+.aboutme-heading{
+    padding-bottom:15px;
+}
+
+#about-header{
+    font-size:52px;
+}
+
+.aboutme-para{
+    text-align:left;
+}
+
+#about-details{
+    font-size:24px;
+}
+
+.about-button{
+    display:flex;
+    justify-content: center;
+    margin-top:50px;
+}
+
+/* Contact */
+#contact{
+    background-color:#0f0f0f;
+}
+
+.contact-me{
+    display:flex;
+    justify-content: space-evenly;
+    margin:50px 0px;
+}
+
+.contact-tile{
+    background: #cfe7fa; /* Old browsers */
+    background: -moz-linear-gradient(top,  #cfe7fa 0%, #6393c1 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #cfe7fa 0%,#6393c1 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #cfe7fa 0%,#6393c1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=0 ); /* IE6-9 */
+    color:#0f0f0f;
+    width:30%;
+    padding:200px 0px;
+    margin:20px;
+    border-radius: 35px;
+    box-shadow: 2px 2px 15px 8px #1282A2;
+}
+
+.contact-text{
+    text-align: center;
+}
+
+.contact-header{
+    font-size:52px;
+}
+
+.contact-link{
+    color:#0f0f0f;
+}
+
+.contact-image{
+    width:90px;
+    padding:25px 0px;
+}
+
+.contact-button{
+    display:flex;
+    justify-content: center;
+    padding-top:10px;
+}
+
+.contact-button-link{
+    background: #606c88; /* Old browsers */
+    background: -moz-linear-gradient(top,  #606c88 0%, #3f4c6b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #606c88 0%,#3f4c6b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #606c88 0%,#3f4c6b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 25px 2px #001F54;
+}
+
+/* Footer */
+#footer{
+    display:block;
+    width:100%;
+    background: linear-gradient(270deg, #0A1128, #001F54);
+    position:absolute;
+}
+
+#footer-links{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.socials{
+    display:flex;
+    justify-content: center;
+}
+
+.social-img{
+    width:30px;
+    padding: 10px;
+    display:flex;
+    justify-content: center;
+}
+
+#copyright{
+    display:flex;
+    justify-content: center;
+    padding-bottom:10px;
+}
+
+.footer-highlight{
+    color:#1282A2;
+    padding:0px 5px;
+    font-weight: 600;
+}
+
+/* Media Queries */
+@media (max-width: 768px){
+    #heading,
+    #navbar{
+        float:none;
+        display:flex;
+        justify-content: center;
+    }
+
+    #welcome-title{
+        font-size:60px;
+        text-align: center;
+    }
+
+    .projects-container{
+        display:block;
+    }
+
+    .project-tile{
+        margin:100px 0px;
+    }
+
+    .about-container{
+        margin:auto;
+    }
+    
+    .aboutme-para{
+        padding: 20px 0px;
+        text-align: center;
+    }
+
+    .aboutme-heading{
+        padding:100px 0px;
+    }
+
+    .about-button{
+        padding-bottom:50px;
+    }
+
+    .contact-me{
+        display:block;
+    }
+
+    .contact-tile{
+        margin:auto;
+        width:100%;
+        margin-bottom:50px;
+        box-shadow: none;
+    }
+
+}
